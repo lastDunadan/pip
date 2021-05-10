@@ -5,16 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quote Gen</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" />
+    <title>Picture in Picture</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     
-    <div class="loader" id="loader"></div> 
+    <!-- Video -->
+    <video id="video" contorls height="360" widht="640" hidden></video>
+    <!--Button-->
+    <div class="button-container">
+        <button id="button" class="cybr-btn">
+            START
+            <span aria-hidden class="cybr-btn__glitch">START</span>
+            <span aria-hidden class="cybr-btn__tag">R205</span>
+        </button>
+    </div>
     <!-- Scripts -->
     <script src="script.js"></script>
 </body>
