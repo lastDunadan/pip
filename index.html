@@ -10,17 +10,19 @@
 </head>
 
 <body>
-    
     <!-- Video -->
-    <video id="video" controls hidden height="360" widht="640" ></video>
+    <video id="video" hidden controls height="360" widht="640" ></video>
     <!--Button-->
     <div class="button-container">
+        <div class="ff"><span class="blink-1">!!! WARNING !!!</span><br>This won't work in Firefox. Please switch to Chrome.</div>
         <div id="source" class="source">select source >>></div><br />
-        <button id="button" class="cybr-btn">
-            START
-            <span aria-hidden class="cybr-btn__glitch">START</span>
-            <span aria-hidden class="cybr-btn__tag">R205</span>
-        </button>
+        <div class="btn-container">
+            <button id="button" class="cybr-btn">
+                START
+                <span aria-hidden class="cybr-btn__glitch">START</span>
+                <span aria-hidden class="cybr-btn__tag">R205</span>
+            </button>
+        </div>
     </div>
     <!-- Scripts -->
     <script src="script.js"></script>
